@@ -13,7 +13,7 @@ namespace Homework_1
             Excersise_2.FindMax();
             Excersise_4.FindMaxOfThree();
             Excersise_6.OddOrEven();
-            Excersise_8.
+            Excersise_8.OddOfArray();
         }
     }
 }
