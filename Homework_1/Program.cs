@@ -10,10 +10,21 @@ namespace Homework_1
     {
         static void Main(string[] args)
         {
-            Excersise_2.FindMax();
-            Excersise_4.FindMaxOfThree();
-            Excersise_6.OddOrEven();
-            Excersise_8.EvenOfArray();
+            // Напишите программу, которая принимает на вход два числа и
+            // проверяет, является ли одно число квадратом другого.
+
+            Console.Write("Введите первое число: ");
+            int mainDig = int.Parse(Console.ReadLine());
+
+            Console.Write("Введите второе число: ");
+            int secDig = int.Parse(Console.ReadLine());
+
+            if (mainDig * mainDig == secDig)
+            {
+                Console.WriteLine("Да");
+            }
+            else Console.WriteLine("Нет");
+
         }
     }
 }
