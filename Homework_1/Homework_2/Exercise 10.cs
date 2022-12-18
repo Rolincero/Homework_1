@@ -10,6 +10,7 @@ namespace Homework_1.Homework_2
     {
         public static void CenterOfDigit()
         {
+            Console.Write("Введите трехзначное число: ");
             string input = Console.ReadLine();
 
             if (input.Length == 3)
@@ -19,9 +20,13 @@ namespace Homework_1.Homework_2
                 {
                     dig_mas[i] = input[i];
                 }
-                Console.WriteLine(dig_mas[1]);
+                Console.WriteLine("Второе число: " + dig_mas[1]);
             }
             else Console.WriteLine("Число неверного формата.");
+
+            Console.WriteLine("Для продолжения нажмите любую клавишу...");
+            Console.ReadLine();
+            Console.Clear();
         }
     }
 }
