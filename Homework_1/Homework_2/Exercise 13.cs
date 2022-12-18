@@ -10,6 +10,7 @@ namespace Homework_1.Homework_2
     {
         public static void PosThreeInDig()
         {
+            Console.Write("Введите число: ");
             string input = Console.ReadLine();
 
             if (input.Length >= 3)
@@ -19,12 +20,16 @@ namespace Homework_1.Homework_2
                 {
                     dig_mas[i] = input[i];
                 }
-                Console.WriteLine(dig_mas[2]);
+                Console.WriteLine("Третий знак числа: " + dig_mas[2]);
             }
             else if (input.Length < 3)
             {
                 Console.WriteLine("Третьего знака нет!");
             }
+
+            Console.WriteLine("Для продолжения нажмите любую клавишу...");
+            Console.ReadLine();
+            Console.Clear();
         }
     }
 }
