@@ -12,6 +12,7 @@ namespace Homework_1
         static void Main(string[] args)
         {
             Exercise_10.CenterOfDigit();
+            Exercise_13.PosThreeInDig();
         }
     }
 }
