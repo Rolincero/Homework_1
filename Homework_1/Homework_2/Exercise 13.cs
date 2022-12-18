@@ -8,5 +8,9 @@ namespace Homework_1.Homework_2
 {
     internal class Exercise_13
     {
+        public static void PosThreeInDig()
+        {
+
+        }
     }
 }
