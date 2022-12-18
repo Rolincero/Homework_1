@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,7 +9,7 @@ namespace Homework_1
 {
     internal class Excersise_8
     {
-        public static void OddOfArray()
+        public static void EvenOfArray()
         {
             Console.Clear();
             Console.WriteLine("Программа выдачи ряда четных чисел до значения.");
@@ -18,14 +19,10 @@ namespace Homework_1
 
             for (int counter = 0; counter <= input; counter++)
             {
-                if (counter % 2 == 0)
-                {
-                    Console.Write(counter + " ");
-                }
+                if (counter % 2 == 0) Console.Write(counter + " ");
             }
 
-            Console.WriteLine("");
-            Console.WriteLine("Выполнение программы завершено.");
+            Console.WriteLine("\nВыполнение программы завершено.");
         }
     }
 }

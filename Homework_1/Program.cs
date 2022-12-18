@@ -10,9 +10,9 @@ namespace Homework_1
     {
         static void Main(string[] args)
         {
-            Excersise_2.FindMax();
-            Excersise_4.FindMaxOfThree();
-            Excersise_6.OddOrEven();
+            //Excersise_2.FindMax();
+            //Excersise_4.FindMaxOfThree();
+            //Excersise_6.OddOrEven();
             Excersise_8.OddOfArray();
         }
     }
