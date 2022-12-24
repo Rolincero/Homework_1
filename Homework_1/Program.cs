@@ -12,9 +12,13 @@ namespace Homework_1
     {
         static void Main()
         {
-            long number = long.Parse(Console.ReadLine());
-            Console.WriteLine(Exercise_19.PolinomNum(number));
-
+            double A1 = double.Parse(Console.ReadLine());
+            double A2 = double.Parse(Console.ReadLine());
+            double A3 = double.Parse(Console.ReadLine());
+            double B1 = double.Parse(Console.ReadLine());
+            double B2 = double.Parse(Console.ReadLine());
+            double B3 = double.Parse(Console.ReadLine());
+            Console.WriteLine(Exercise_21.ThirdDimDist(A1,A2,A3,B1,B2,B3));
         }
     }
 }
