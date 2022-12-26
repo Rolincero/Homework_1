@@ -13,8 +13,7 @@ namespace Homework_1
         static void Main()
         {
             int input = int.Parse(Console.ReadLine());
-            Exercise_23.CubePow(input);
-
+            Addition.SimpleNumArray(input);
         }
     }
 }

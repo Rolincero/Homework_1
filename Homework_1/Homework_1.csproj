@@ -51,6 +51,7 @@
     <Compile Include="Homework_2\Exercise 10.cs" />
     <Compile Include="Homework_2\Exercise 13.cs" />
     <Compile Include="Homework_2\Exercise 15.cs" />
+    <Compile Include="Homework_3\Addition.cs" />
     <Compile Include="Homework_3\Exercise 19.cs" />
     <Compile Include="Homework_3\Exercise 21.cs" />
     <Compile Include="Homework_3\Exercise 23.cs" />
