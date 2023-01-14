@@ -14,7 +14,13 @@ namespace Homework_1
         static void Main()
         {
             string input = Console.ReadLine();
-            Console.WriteLine(Exercise_27.Numerology(input));
+            Console.Write("[");
+            int[] data = (Exercise_29.SplitArray(input));
+            foreach (var item in data)
+            {
+                Console.Write(item + ",");
+            }
+            Console.Write("]");
         }
     }
 }
