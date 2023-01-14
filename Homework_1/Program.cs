@@ -13,9 +13,8 @@ namespace Homework_1
     {
         static void Main()
         {
-            int input = int.Parse(Console.ReadLine());
-            int degree = int.Parse(Console.ReadLine());
-            Console.WriteLine(Exercise_25.Degree(input, degree));
+            string input = Console.ReadLine();
+            Console.WriteLine(Exercise_27.Numerology(input));
         }
     }
 }
