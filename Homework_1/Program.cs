@@ -1,5 +1,6 @@
 ﻿using Homework_1.Homework_2;
 using Homework_1.Homework_3;
+using Homework_1.Homework_4;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,8 @@ namespace Homework_1
         static void Main()
         {
             int input = int.Parse(Console.ReadLine());
-            Addition.SimpleNumArray(input);
+            int degree = int.Parse(Console.ReadLine());
+            Console.WriteLine(Exercise_25.Degree(input, degree));
         }
     }
 }
