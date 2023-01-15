@@ -15,7 +15,7 @@ namespace Homework_1
         static void Main()
         {
             int input = int.Parse(Console.ReadLine()); // Задаем длинну массива
-            Console.WriteLine($"\n{Exercise_36.OddSumArray(input)}");
+            Console.WriteLine($"\n{Exercise_38.DiffMaxMinInArray(input)}");
         }
     }
 }
