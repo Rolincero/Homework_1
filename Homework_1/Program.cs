@@ -1,6 +1,7 @@
 ﻿using Homework_1.Homework_2;
 using Homework_1.Homework_3;
 using Homework_1.Homework_4;
+using Homework_1.Homework_5;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,14 +14,8 @@ namespace Homework_1
     {
         static void Main()
         {
-            string input = Console.ReadLine();
-            Console.Write("[");
-            int[] data = (Exercise_29.SplitArray(input));
-            foreach (var item in data)
-            {
-                Console.Write(item + ",");
-            }
-            Console.Write("]");
+            int input = int.Parse(Console.ReadLine()); // Задаем длинну массива
+            Console.WriteLine($"\nКол-во четных элементов массива: {Exercise_34.FindEvenInRndArray(input)}");
         }
     }
 }
