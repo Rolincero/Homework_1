@@ -2,6 +2,7 @@
 using Homework_1.Homework_3;
 using Homework_1.Homework_4;
 using Homework_1.Homework_5;
+using Homework_1.Homework_6;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,8 +15,10 @@ namespace Homework_1
     {
         static void Main()
         {
-            int input = int.Parse(Console.ReadLine()); // Задаем длинну массива
-            Console.WriteLine($"\n{Exercise_38.DiffMaxMinInArray(input)}");
+            Console.Write("Введите числа через запятую, без пробелов. \nПример: 1,2,3,4 \n");
+            string input = Console.ReadLine();
+            var array = input.Split(',');
+            Console.WriteLine($"Чисел больше нуля: {Exercise_41.Counter(array)}");
         }
     }
 }
