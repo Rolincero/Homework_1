@@ -24,11 +24,12 @@ namespace Homework_1
             int n = int.Parse(Console.ReadLine());
             int[,] array = Exercise_47.SDimArray(m, n);
 
-            Console.WriteLine("Введите координату 'm': ");
-            m = int.Parse(Console.ReadLine()) - 1;
-            Console.WriteLine("Введите координату 'n': ");
-            n = int.Parse(Console.ReadLine()) - 1;
-            Console.WriteLine($"Элемент найден: {Exercise_50.FindInSArray(array, m, n)}");
+            double[] result = Exercise_52.ColMidSum(array);
+            Console.WriteLine("\nРезультат вычисления по столбцам:");
+            foreach (var item in result)
+            {
+                Console.Write(item + "\t");
+            }
         }
     }
 }
