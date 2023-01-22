@@ -8,7 +8,7 @@ namespace Homework_1.Homework_7
 {
     public static class Exercise_47
     {
-        public static void SDimArray(int m, int n)
+        public static int[,] SDimArray(int m, int n)
         {
             int[,] array = new int[m, n];
             var rnd = new Random();
@@ -30,6 +30,7 @@ namespace Homework_1.Homework_7
                 }
                 Console.WriteLine();
             }
+            return array;
         }
     }
 }
