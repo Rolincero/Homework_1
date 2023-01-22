@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace Homework_1
 {
-    internal class Seminar__2
+    internal class Seminar_2
     {
         public static int GetNumber(int input)
         {

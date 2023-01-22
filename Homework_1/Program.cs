@@ -3,6 +3,7 @@ using Homework_1.Homework_3;
 using Homework_1.Homework_4;
 using Homework_1.Homework_5;
 using Homework_1.Homework_6;
+using Homework_1.Homework_7;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -17,18 +18,11 @@ namespace Homework_1
     {
         static void Main()
         {
-            double x = 0;
-            double y = 0;
-            Console.Write("Введите значение b1: ");
-            double b1 = int.Parse(Console.ReadLine());
-            Console.Write("Введите значение k1: ");
-            double k1 = int.Parse(Console.ReadLine());
-            Console.Write("Введите значение b2: ");
-            double b2 = int.Parse(Console.ReadLine());
-            Console.Write("Введите значение k2: ");
-            double k2 = int.Parse(Console.ReadLine());
-            Exercise_43.FindCrossVector(b1, k1, b2, k2, ref x, ref y);
-            Console.WriteLine($"Линии пересекутся в точке [{Math.Round(x, 2)} ; {Math.Round(y, 2)}]");
+            Console.Write("Введите высоту массива 'm': ");
+            int m = int.Parse(Console.ReadLine());
+            Console.Write("Введите ширину массива 'n': ");
+            int n = int.Parse(Console.ReadLine());
+            Exercise_47.SDimArray(m, n);
         }
     }
 }
