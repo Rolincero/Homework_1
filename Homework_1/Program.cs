@@ -25,6 +25,7 @@ namespace Homework_1
             int[,] array = Exercise_47.SDimArray(m, n);
 
             double[] result = Exercise_52.ColMidSum(array);
+
             Console.WriteLine("\nРезультат вычисления по столбцам:");
             foreach (var item in result)
             {
