@@ -19,21 +19,7 @@ namespace Homework_1
             Console.Write("Введите ширину массива 'n': ");
             int n = int.Parse(Console.ReadLine());
 
-            int[,] array1 = Exercise_47.SDimArray(2, 2);
-            int[,] array2 = Exercise_47.SDimArray(2, 2);
-            int[,] result = Exercise_58.MatrxMul(array1, array2);
-
-            // Вывод массива в консоль для проверки
-            for (int i = 0; i < result.GetLength(0); i++)
-            {
-                for (int j = 0; j < result.GetLength(1); j++)
-                {
-                    Console.Write($"{result[i, j]} \t");
-                }
-                Console.WriteLine();
-            }
-            Console.ReadLine();
-
+            Exercise_60.ThrdDimArrGen();
         }
     }
 }
