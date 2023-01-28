@@ -14,12 +14,12 @@ namespace Homework_1
     {
         static void Main()
         {
-            Console.Write("Введите высоту массива 'm': ");
-            int m = int.Parse(Console.ReadLine());
-            Console.Write("Введите ширину массива 'n': ");
-            int n = int.Parse(Console.ReadLine());
+            //Console.Write("Введите высоту массива 'm': ");
+            //int m = int.Parse(Console.ReadLine());
+            //Console.Write("Введите ширину массива 'n': ");
+            //int n = int.Parse(Console.ReadLine());
 
-            Exercise_60.ThrdDimArrGen();
+            Exercise_62.SpiralSort();
         }
     }
 }
