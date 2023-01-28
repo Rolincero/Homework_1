@@ -9,13 +9,13 @@ namespace Homework_1.Homework_8
 {
     internal class Exercise_54
     {
-        public static void SortRows(ref int m, ref int n, int[,] array)
+        public static void SortRows(int[,] array)
         {
             // Создание массива массивов (jagged array)
             int[][] jArr = new int[array.GetLength(0)][];
 
             // Инициализация подмассивов jArr
-            for (int i = 0; i < m; i++)
+            for (int i = 0; i < array.GetLength(0); i++)
             {
                 jArr[i] = new int[array.GetLength(1)];
             }
