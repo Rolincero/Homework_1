@@ -18,11 +18,11 @@ namespace Homework_1
             int m = int.Parse(Console.ReadLine());
             Console.Write("Введите ширину массива 'n': ");
             int n = int.Parse(Console.ReadLine());
+
             int[,] array = Exercise_47.SDimArray(m, n);
-            Console.WriteLine();
 
-            Exercise_54.SortRows(ref m, ref n, array);
-
+            Exercise_56.SumOfRows(ref m, ref n, array);
+            Console.ReadKey();
         }
     }
 }

@@ -67,6 +67,7 @@
     <Compile Include="Homework_7\Exercise 52.cs" />
     <Compile Include="Homework_7\Exercise_50.cs" />
     <Compile Include="Homework_8\Exercise 54.cs" />
+    <Compile Include="Homework_8\Exercise 56.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Seminar 6.cs" />
