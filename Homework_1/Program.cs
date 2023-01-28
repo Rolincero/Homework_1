@@ -1,9 +1,5 @@
-﻿using Homework_1.Homework_2;
-using Homework_1.Homework_3;
-using Homework_1.Homework_4;
-using Homework_1.Homework_5;
-using Homework_1.Homework_6;
-using Homework_1.Homework_7;
+﻿using Homework_1.Homework_7;
+using Homework_1.Homework_8;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -23,14 +19,10 @@ namespace Homework_1
             Console.Write("Введите ширину массива 'n': ");
             int n = int.Parse(Console.ReadLine());
             int[,] array = Exercise_47.SDimArray(m, n);
+            Console.WriteLine();
 
-            double[] result = Exercise_52.ColMidSum(array);
+            Exercise_54.SortRows(ref m, ref n, array);
 
-            Console.WriteLine("\nРезультат вычисления по столбцам:");
-            foreach (var item in result)
-            {
-                Console.Write(item + "\t");
-            }
         }
     }
 }
