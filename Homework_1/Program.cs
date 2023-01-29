@@ -1,5 +1,4 @@
-﻿using Homework_1.Homework_7;
-using Homework_1.Homework_8;
+﻿using Homework_1.Homework_9;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -14,12 +13,10 @@ namespace Homework_1
     {
         static void Main()
         {
-            //Console.Write("Введите высоту массива 'm': ");
-            //int m = int.Parse(Console.ReadLine());
-            //Console.Write("Введите ширину массива 'n': ");
-            //int n = int.Parse(Console.ReadLine());
-
-            Exercise_62.SpiralSort();
+            int inp = int.Parse(Console.ReadLine());
+            Console.Clear();
+            Exercise_64.NumRowButReversed(inp);
+            Console.ReadKey();
         }
     }
 }
