@@ -12,6 +12,7 @@ namespace Homework_1.Homework_9
     {
         public static int SumOfRange(int inp1, int inp2, ref int cntr)
         {
+            // Исключение ошибки с первым числом больше второго
             int temp = 0;
             if (inp1 > inp2) 
             {
@@ -19,10 +20,10 @@ namespace Homework_1.Homework_9
                 inp1 = inp2;
                 inp2 = temp;
             }
-            cntr += inp1;
+            cntr += inp1; // Счетчик
 
             if (inp1 == inp2) return cntr;
-            else SumOfRange(inp1 + 1, inp2, ref cntr);
+            else SumOfRange(inp1 + 1, inp2, ref cntr); // Точка входа в рекурсию
             return cntr;
         }
     }
