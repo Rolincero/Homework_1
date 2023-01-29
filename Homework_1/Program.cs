@@ -13,15 +13,12 @@ namespace Homework_1
     {
         static void Main()
         {
-            Console.WriteLine("Введите диапазон: ");
-            Console.Write("От: ");
-            int inp1 = int.Parse(Console.ReadLine());
-            Console.Write("До: ");
-            int inp2 = int.Parse(Console.ReadLine());
-            int cntr = 0;       // Инициализация счетчика
-            Console.Clear();
+            Console.Write("Введите первое число: ");
+            int in1 = int.Parse(Console.ReadLine());
+            Console.Write("Введите второе число: ");
+            int in2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Сумма диапазона: {Exercise_66.SumOfRange(inp1, inp2, ref cntr)}");
+            Console.WriteLine($"Результат: {Exercise_68.AkkFun(in1, in2)}");
             Console.ReadKey();
         }
     }
