@@ -13,9 +13,15 @@ namespace Homework_1
     {
         static void Main()
         {
-            int inp = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите диапазон: ");
+            Console.Write("От: ");
+            int inp1 = int.Parse(Console.ReadLine());
+            Console.Write("До: ");
+            int inp2 = int.Parse(Console.ReadLine());
+            int cntr = 0;
             Console.Clear();
-            Exercise_64.NumRowButReversed(inp);
+
+            Console.WriteLine($"Сумма диапазона: {Exercise_66.SumOfRange(inp1, inp2, ref cntr)}");
             Console.ReadKey();
         }
     }
